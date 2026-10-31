@@ -1,0 +1,35 @@
+{
+  "$schema": "../../wallet.schema.json",
+  "wallet_name": "oathmobile",
+  "pretty_name": "Oath Wallet",
+  "connection_type": "wallet_connect",
+  "website": "https://oathwallet.org",
+  "git_repo": "https://github.com/devdasx/oath-wallet",
+  "supported_chains": [
+    "thorchain"
+  ],
+  "platforms": [
+    {
+      "device": "mobile",
+      "type": "application",
+      "platform": "ios",
+      "install_link": "https://apps.apple.com/app/id6780187283"
+    },
+    {
+      "device": "tablet",
+      "type": "application",
+      "platform": "ios",
+      "install_link": "https://apps.apple.com/app/id6780187283"
+    }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/oathmobile/images/logo.svg",
+      "theme": {
+        "primary_color_hex": "#247BFF",
+        "circle": false
+      },
+      "layout": "logomark"
+    }
+  ]
+}
